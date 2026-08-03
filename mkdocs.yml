@@ -1,0 +1,59 @@
+site_name: weftkit
+site_description: Lifecycle management for Bukkit plugins, wired at compile time.
+site_url: https://weftkit.org
+repo_url: https://github.com/weftkit/weftkit
+repo_name: weftkit/weftkit
+copyright: Copyright &copy; 2026 the weftkit authors
+
+theme:
+  name: material
+  logo: https://cdn.jsdelivr.net/gh/weftkit/assets@1/logo/png/weftkit-mark-weave.png
+  favicon: https://cdn.jsdelivr.net/gh/weftkit/assets@1/favicon/favicon-32.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Components: components.md
+  - Lifecycle: lifecycle.md
+  - Listeners and commands: listeners-and-commands.md
+  - Annotations: annotations.md
