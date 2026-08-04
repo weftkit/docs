@@ -8,7 +8,7 @@ copyright: Copyright &copy; 2026 the weftkit authors
 theme:
   name: material
   logo: https://cdn.jsdelivr.net/gh/weftkit/assets@1/logo/png/weftkit-mark-weave.png
-  favicon: https://cdn.jsdelivr.net/gh/weftkit/assets@1/favicon/favicon-32.png
+  favicon: https://cdn.jsdelivr.net/gh/weftkit/assets@1/favicon/favicon-32x32.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
