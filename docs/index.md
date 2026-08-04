@@ -1,6 +1,8 @@
-# weftkit
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/weftkit/assets@1/logo/png/weftkit-wordmark.png" alt="weftkit" width="440">
+</p>
 
-Lifecycle management for Bukkit plugins, wired at compile time.
+# Lifecycle management for Bukkit plugins, wired at compile time
 
 !!! note "Pre-release"
     weftkit is pre-1.0, so the public API can still change between releases until 1.0.
@@ -28,5 +30,7 @@ lifecycle.
 - **Bukkit integration.** `onEnable`, `onDisable`, listener registration, and clean shutdown are handled for you.
 - **Compile-time safety.** The graph is validated during `javac`, so wiring mistakes are build errors, not startup crashes.
 - **Zero runtime reflection.** Components are built by generated factories.
+- **Readable wiring.** The processor renders your whole dependency graph to Graphviz, so you can see the plugin's structure at a glance.
 
 [Get started](getting-started.md){ .md-button .md-button--primary }
+[Browse the annotations](annotations.md){ .md-button }
