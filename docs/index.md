@@ -1,3 +1,8 @@
+---
+title: weftkit
+description: weftkit manages the lifecycle of Bukkit plugins with compile-time wiring. Components load in dependency order, listeners register themselves, and wiring mistakes fail the build instead of crashing the server.
+---
+
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/weftkit/assets@1/logo/png/weftkit-wordmark.png" alt="weftkit" width="440">
 </p>

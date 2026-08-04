@@ -1,3 +1,7 @@
+---
+description: Reference for every weftkit annotation and the Loader lifecycle interface.
+---
+
 # Annotations
 
 weftkit's vocabulary is a handful of annotations plus the `Loader` interface. The processor

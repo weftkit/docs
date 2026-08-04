@@ -1,3 +1,7 @@
+---
+description: How weftkit starts a Bukkit plugin in dependency order, tears it down in reverse, renders the dependency graph, and why it has no reload.
+---
+
 # Lifecycle
 
 weftkit owns your plugin from `onEnable` to `onDisable`. `BukkitWeft.enable` starts everything up

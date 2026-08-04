@@ -1,3 +1,7 @@
+---
+description: Install weftkit from Maven Central, annotate your plugin main with @Registry, and boot a wired Bukkit plugin in a few lines.
+---
+
 # Getting started
 
 ## Prerequisites

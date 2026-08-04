@@ -1,3 +1,7 @@
+---
+description: Constructor injection in weftkit - singletons, interface bindings, @Provides products, qualifiers, optional dependencies, and lazy singletons.
+---
+
 # Components
 
 A component is a plain class that weftkit constructs for you. `@Wired` marks a class as part of

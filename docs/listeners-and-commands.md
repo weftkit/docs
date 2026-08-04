@@ -1,3 +1,7 @@
+---
+description: Bukkit listeners register themselves during enable, and commands are built through the loader and attached in onEnable.
+---
+
 # Listeners and commands
 
 ## Listeners
