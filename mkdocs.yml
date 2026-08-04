@@ -57,3 +57,4 @@ nav:
   - Lifecycle: lifecycle.md
   - Listeners and commands: listeners-and-commands.md
   - Annotations: annotations.md
+  - Troubleshooting: troubleshooting.md
